@@ -3,14 +3,14 @@
 
   <!-- Main -->
   <url>
-    <loc>https://coldogstudios.github.io/</loc>
+    <loc>https://www.coldogstudios.com/</loc>
     <lastmod>2023-5-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://coldogstudios.github.io/contact/</loc>
+    <loc>https://www.coldogstudios.com/contact/</loc>
     <lastmod>2023-5-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -18,21 +18,21 @@
 
   <!-- Projects -->
   <url>
-    <loc>https://coldogstudios.github.io/projects/</loc>
+    <loc>https://www.coldogstudios.com/projects/</loc>
     <lastmod>2023-5-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
 
   <url>
-    <loc>https://coldogstudios.github.io/projects/coldog-locker/</loc>
+    <loc>https://www.coldogstudios.com/projects/coldog-locker/</loc>
     <lastmod>2023-5-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://coldogstudios.github.io/projects/dj-coldog/</loc>
+    <loc>https://www.coldogstudios.com/projects/dj-coldog/</loc>
     <lastmod>2023-5-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -40,14 +40,14 @@
 
   <!-- Troubleshooting -->
   <url>
-    <loc>https://coldogstudios.github.io/troubleshooting/windows</loc>
+    <loc>https://www.coldogstudios.com/troubleshooting/windows</loc>
     <lastmod>2023-5-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 
   <url>
-    <loc>https://coldogstudios.github.io/troubleshooting/linux</loc>
+    <loc>https://www.coldogstudios.com/troubleshooting/linux</loc>
     <lastmod>2023-5-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -55,14 +55,14 @@
 
   <!-- Misc -->
   <url>
-    <loc>https://coldogstudios.github.io/sitemap</loc>
+    <loc>https://www.coldogstudios.com/sitemap</loc>
     <lastmod>2023-5-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
 
   <url>
-    <loc>https://coldogstudios.github.io/branding/</loc>
+    <loc>https://www.coldogstudios.com/branding/</loc>
     <lastmod>2023-5-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>

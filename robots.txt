@@ -4,4 +4,4 @@ Allow: /
 User-agent: Googlebot-Image
 Allow: /assets/images/
 
-Sitemap: https://coldogstudios.github.io/sitemap.xml
+Sitemap: https://www.coldogstudios.com/sitemap.xml
