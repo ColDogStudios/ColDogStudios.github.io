@@ -4,7 +4,7 @@
   <!-- Main -->
   <url>
     <loc>https://www.coldogstudios.com/</loc>
-    <lastmod>2023-5-16</lastmod>
+    <lastmod>2024-3-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -13,7 +13,7 @@
     <loc>https://www.coldogstudios.com/contact/</loc>
     <lastmod>2023-5-16</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+    <priority>0.4</priority>
   </url>
 
   <!-- Projects -->
@@ -21,7 +21,7 @@
     <loc>https://www.coldogstudios.com/projects/</loc>
     <lastmod>2023-5-16</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.4</priority>
+    <priority>0.6</priority>
   </url>
 
   <url>
@@ -56,7 +56,7 @@
   <!-- Misc -->
   <url>
     <loc>https://www.coldogstudios.com/sitemap</loc>
-    <lastmod>2023-5-16</lastmod>
+    <lastmod>2023-3-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
