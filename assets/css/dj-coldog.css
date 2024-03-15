@@ -32,7 +32,7 @@ a:active {
 /* Firefox */
 * {
   scrollbar-width: auto;
-  scrollbar-color: #b81a01 #ddd; /* Thumb, Track */
+  scrollbar-color: #b81a01 #f5f5f5; /* Thumb, Track */
 }
 
 /* Chrome, Edge, Safari */
@@ -41,7 +41,7 @@ a:active {
 }
 
 ::-webkit-scrollbar-track {
-  background: #ddd;
+  background: #f5f5f5;
 }
 
 ::-webkit-scrollbar-thumb {

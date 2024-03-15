@@ -15,7 +15,7 @@ html {
 }
 
 body {
-  background-color: #ddd;
+  background-color: #f5f5f5;
   line-height: 1.6;
 }
 
@@ -157,7 +157,6 @@ tr:nth-child(odd) {
 #embedded-badge-a921ef24-3ebf-449b-9fdb-29cce327c9d3,
 #embedded-badge-bdb9a895-602e-4921-ab9c-b346b2d5a13b,
 #embedded-badge-df74d9da-3e3c-4a21-88ce-794963a429d8
-
 {
   background: #FFF;
   margin: 0 2px;
@@ -168,7 +167,7 @@ tr:nth-child(odd) {
 /* Firefox */
 * {
   scrollbar-width: auto;
-  scrollbar-color: #0096cd #ddd; /* Thumb, Track */
+  scrollbar-color: #0096cd #f5f5f5; /* Thumb, Track */
 }
 
 /* Chrome, Edge, Safari */
@@ -177,7 +176,7 @@ tr:nth-child(odd) {
 }
 
 ::-webkit-scrollbar-track {
-  background: #ddd;
+  background: #f5f5f5;
 }
 
 ::-webkit-scrollbar-thumb {
