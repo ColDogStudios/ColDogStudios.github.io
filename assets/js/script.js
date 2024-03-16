@@ -1,36 +1,36 @@
-///////////////////
-//  Website Scripts
-///////////////////
+const body = document.querySelector("body"),
+      nav = document.querySelector("nav"),
+      modeToggle = document.querySelector(".dark-light"),
+      sidebarOpen = document.querySelector(".sidebarOpen"),
+      siderbarClose = document.querySelector(".siderbarClose");
 
-document.addEventListener("DOMContentLoaded", function() {
+      let getMode = localStorage.getItem("mode");
+          if(getMode && getMode === "dark-mode"){
+            body.classList.add("dark");
+          }
 
-	console.log('script executed')
+// js code to toggle dark and light mode
+      modeToggle.addEventListener("click" , () =>{
+        modeToggle.classList.toggle("active");
+        body.classList.toggle("dark");
 
-	// Load nav content
-	const navContainer = document.getElementById("navContainer");
-	fetch("/assets/html/nav.html")
-		.then(response => response.text())
-	  	.then(data => {
-			navContainer.innerHTML = data;
-	  	});
+        // js code to keep user selected mode even page refresh or file reopen
+        if(!body.classList.contains("dark")){
+            localStorage.setItem("mode" , "light-mode");
+        }else{
+            localStorage.setItem("mode" , "dark-mode");
+        }
+      }); 
+      
+//   js code to toggle sidebar
+sidebarOpen.addEventListener("click" , () =>{
+    nav.classList.add("active");
+});
 
-	// Toggle class
-	function toggleNav() {
-		var element = document.getElementById("navLinks");
-		element.classList.toggle("show");
-	}
+body.addEventListener("click" , e =>{
+    let clickedElm = e.target;
 
-	// Check for mobile menu icon click
-	$('#menuIcon').click(function(){
-		$('ul').toggleClass('show');
-		console.log('toggled menu class');
-	});
-  
-	// Load footer content
-	const footerContainer = document.getElementById("footerContainer");
-	fetch("/assets/html/footer.html")
-	  	.then(response => response.text())
-	  	.then(data => {
-			footerContainer.innerHTML = data;
-	  	});
+    if(!clickedElm.classList.contains("sidebarOpen") && !clickedElm.classList.contains("menu")){
+        nav.classList.remove("active");
+    }
 });
