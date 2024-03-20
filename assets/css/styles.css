@@ -70,16 +70,6 @@ nav .nav-bar .sidebarOpen {
     display: none;
 }
 
-label .logo .navLogo img {
-    width: 80px;
-    height: 80px;
-}
-
-label .logo img {
-    width: 80px;
-    height: 80px;
-}
-
 nav .nav-bar .logo a {
     font-size: 25px;
     font-weight: 500;
