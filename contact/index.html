@@ -5,25 +5,26 @@
     <!-- HTML Meta Tags -->
     <title>ColDog Studios | Contact</title>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="ColDog Studios">
     <meta name="description" content="On a repo, use the Issues tab to report a bug, request a feature, ask a question, or report a security vulnerability. On a repo, use the Disscussions tab to ask a question.">
-    <meta name="keywords" content="ColDog Studios">
+    <meta name="keywords" content="ColDog Studios, ColDog, ColDog5044, Contact">
 
     <!-- Facebook Meta Tags -->
-    <meta property="og:url" content="https://coldogstudios.github.io/contact/">
+    <meta property="og:url" content="https://coldogstudios.com/contact/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="ColDog Studios | Contact">
     <meta property="og:description" content="On a repo, use the Issues tab to report a bug, request a feature, ask a question, or report a security vulnerability. On a repo, use the Disscussions tab to ask a question.">
-    <meta property="og:image" content="https://coldogstudios.github.io/assets/images/ColDogStudios/cdsWallpaperLite.png">
+    <meta property="og:image" content="https://coldogstudios.com/assets/images/cds/cdsWallpaperLite.png">
 
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta property="twitter:domain" content="coldogstudios.github.io">
-    <meta property="twitter:url" content="https://coldogstudios.github.io/contact/">
+    <meta property="twitter:domain" content="coldogstudios.com">
+    <meta property="twitter:url" content="https://coldogstudios.com/contact/">
     <meta name="twitter:title" content="ColDog Studios | Contact">
     <meta name="twitter:description" content="On a repo, use the Issues tab to report a bug, request a feature, ask a question, or report a security vulnerability. On a repo, use the Disscussions tab to ask a question.">
-    <meta name="twitter:image" content="https://coldogstudios.github.io/assets/images/ColDogStudios/cdsWallpaperLite.png">
+    <meta name="twitter:image" content="https://coldogstudios.com/assets/images/cds/cdsWallpaperLite.png">
 
     <!-- Icons & Styling-->
     <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
@@ -32,37 +33,27 @@
     <link rel="stylesheet" href="/assets/css/nav.css">
     <link rel="stylesheet" href="/assets/css/footer.css">
     <link rel="stylesheet" href="/assets/css/contact.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
-
-    <!-- Scripts -->
-    <script src="/assets/js/script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
-    <script>
-        $(document).ready(function(){
-            $('#icon').click(function(){
-                $('ul').toggleClass('show');
-            });
-        });
-    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
-    <nav>
-        <label class="logo"><img src="/assets/images/ColDogStudios/cdsIcon.svg"></label>
-        <ul id="menuLinks">
+    <nav class="nav">
+        <i class="uil uil-bars navOpenBtn"></i>
+        <label class="logo">
+            <img src="/assets/images/cds/cdsIcon.svg">
+        </label>
+  
+        <ul class="nav-links">
+            <i class="uil uil-times navCloseBtn"></i>
             <li><a href="/">Home</a></li>
             <li><a href="/projects/">Projects</a></li>
-            <li><a href="/hire-me/">Hire Me</a></li>
+            <li><a href="/services/">Services</a></li>
             <li><a href="/contact/">Contact</a></li>
         </ul>
-        
-        <label id="menuIcon" onclick="toggleNav()">
-            <i class="fa-solid fa-bars"></i>
-        </label>
     </nav>
 
     <header>
-        <h1>Contact</h1>
+        <h1>Contact Us</h1>
     </header>
 
     <main>
@@ -79,8 +70,23 @@
             <p>
                 Email us if none of the above applies or the information is personal. We will try to respond within a business day.
             </p>
+            <p>
+                <a href="mailto:contact@coldogstudios.com?subject=[WEBSITE]%20Contact">contact@coldogstudios.com</a>
+            </p>
         </section>
 
+        <section id="Phone" class="h2">
+            <h2><i class="fa-solid fa-phone"></i> Phone</h2>
+            <p>
+                Call us if none of the above applies.
+                If you are sent to voicemail, please leave a message being as descriptive as possible including your name and reason for calling.
+            </p>
+            <p>
+                <a href="tel:5172951620">(517) 295-1620</a>
+            </p>
+        </section>
+
+        <!--
         <section id="EmailForm">
             <form action="mailto:contact@coldogstudios.com?subject=[CDS]%20Contact" method="post" enctype="text/plain">
                 <label for="name">Name</label> <br>
@@ -110,14 +116,17 @@
                 <a href="mailto:contact@coldogstudios.com?subject=[CDS]%20Contact">mailto:contact@coldogstudios.com</a>
             </p>
                 
-            <!--    <ul>
+            <!-    <ul>
                     <li>Do not change the tag in the subject of the email, or it may not get read.</li>
                     <li>Do not attach any files in your initial email, or it will not be read. However, you may be asked to attach files in a reply.</li>
                     <li>Do not put any links in your email, or it will not be read.</li>
-                </ul>   -->
-        </section>
+                </ul>   
+        </section>-->
     </main>
 
-    <div id="footerContainer"></div>
+    <footer-content></footer-content>
+
+    <!-- Scripts -->
+    <script src="/assets/js/scripts.js"></script>
 </body>
 </html>
