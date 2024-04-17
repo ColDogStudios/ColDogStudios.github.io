@@ -1,10 +1,10 @@
 /* Main Website CSS */
 
 /* ===== Google Font Import - Roboto, Source Code Pro, Poppins ===== */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
 /* Main */
 * {
@@ -74,7 +74,7 @@ section ol {
 }
 
 a {
-    color: #0096dc; 
+    color: #0096dc;
     text-decoration: none;
 }
 
@@ -86,24 +86,24 @@ a:hover {
 
 /* Chrome, Edge, Safari */
 ::-webkit-scrollbar {
-  width: 0.6vw;
+    width: 0.6vw;
 }
 
 ::-webkit-scrollbar-track {
-  background: transparent;
+    background: transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #222;
-  border-radius: 100vw;
+    background: #222;
+    border-radius: 100vw;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #0096cd;
+    background: #0096cd;
 }
 
 ::-webkit-scrollbar-thumb:active {
-  background: #0077b6;
+    background: #0077b6;
 }
 
 /* Firefox *

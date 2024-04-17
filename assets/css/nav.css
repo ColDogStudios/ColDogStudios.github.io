@@ -43,12 +43,12 @@ nav a {
     opacity: 0;
     pointer-events: none;
 }
-  
+
 .nav .navOpenBtn,
 .nav .navCloseBtn {
     display: none;
 }
- 
+
 /* responsive */
 @media screen and (max-width: 1160px) {
     .nav {
