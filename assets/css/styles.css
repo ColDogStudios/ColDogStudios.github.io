@@ -19,7 +19,7 @@ body {
 }
 
 main {
-    width: 1000px;
+    width: 1024px;
     margin: 0 auto;
 }
 
@@ -28,10 +28,22 @@ section {
 }
 
 header h1 {
-    width: 1000px;
+    width: 1024px;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 14px;
+}
+
+@media (max-width: 900px) {
+    main, header h1{
+        width: 720px;
+    }
+}
+
+@media (max-width: 700px) {
+    main, header h1{
+        width: 375px
+    }
 }
 
 h1,
