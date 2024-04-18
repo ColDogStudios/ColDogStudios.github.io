@@ -205,10 +205,11 @@ footer .bottom-details .bottom_text {
 .bottom-details .bottom_text span,
 .bottom-details .bottom_text a {
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
     color: #fafafa;
     opacity: 0.8;
     text-decoration: none;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 .bottom-details .bottom_text a:hover {
@@ -234,10 +235,6 @@ footer .bottom-details .bottom_text {
 @media (max-width: 700px) {
     footer {
         position: relative;
-    }
-
-    .content .top .logo-details {
-        font-size: 26px;
     }
 
     .content .top .media-icons a {
@@ -280,5 +277,9 @@ footer .bottom-details .bottom_text {
 
     footer .content .link-boxes .input-box {
         width: 100%;
+    }
+
+    footer .bottom-details .bottom_text {
+        display: block;
     }
 }
