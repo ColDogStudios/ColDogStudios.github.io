@@ -10,7 +10,7 @@ const nav = document.querySelector(".nav"),
 navOpenBtn.addEventListener("click", () => {
     nav.classList.add("openNav");
     nav.classList.remove("openSearch");
-    searchIcon.classList.replace("uil-times", "uil-search");
+    //searchIcon.classList.replace("uil-times", "uil-search");
 });
 
 navCloseBtn.addEventListener("click", () => {
