@@ -5,59 +5,48 @@
     <!-- HTML Meta Tags -->
     <title>ColDog Studios | Projects</title>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="ColDog Studios">
     <meta name="description" content="All of ColDog Studios' existing projects">
-    <meta name="keywords" content="ColDog Locker, DJ ColDog">
-
+    <meta name="keywords" content="Projects, ColDog Studios Projects">
     <!-- Facebook Meta Tags -->
-    <meta property="og:url" content="https://coldogstudios.github.io/projects/">
+    <meta property="og:url" content="https://coldogstudios.com/projects/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="ColDog Studios | Projects">
     <meta property="og:description" content="All of ColDog Studios' existing projects">
-    <meta property="og:image" content="https://coldogstudios.github.io/assets/images/ColDogStudios/cdsWallpaperLite.png">
-
+    <meta property="og:image" content="https://coldogstudios.com/assets/images/ColDogStudios/cdsWallpaperLite.png">
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta property="twitter:domain" content="coldogstudios.github.io">
-    <meta property="twitter:url" content="https://coldogstudios.github.io/projects/">
+    <meta property="twitter:domain" content="coldogstudios.com">
+    <meta property="twitter:url" content="https://coldogstudios.com/projects/">
     <meta name="twitter:title" content="ColDog Studios | Projects">
     <meta name="twitter:description" content="All of ColDog Studios' existing projects">
-    <meta name="twitter:image" content="https://coldogstudios.github.io/assets/images/ColDogStudios/cdsWallpaperLite.png">
-
+    <meta name="twitter:image" content="https://coldogstudios.com/assets/images/ColDogStudios/cdsWallpaperLite.png">
     <!-- Icons & Styling-->
-    <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="stylesheet" href="/assets/css/nav.css">
-    <link rel="stylesheet" href="/assets/css/footer.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-    <!-- Scripts -->
-    <script src="/assets/js/script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
-    <script>
-        $(document).ready(function(){
-            $('#icon').click(function(){
-                $('ul').toggleClass('show');
-            });
-        });
-    </script>
+    <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <link rel="stylesheet" href="/assets/css/nav.css" />
+    <link rel="stylesheet" href="/assets/css/footer.css" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 
 <body>
-    <nav>
-        <label class="logo"><img src="/assets/images/ColDogStudios/cdsIcon.svg"></label>
-        <ul id="menuLinks">
+    <nav class="nav">
+        <i class="uil uil-bars navOpenBtn"></i>
+        <label class="logo">
+            <img src="/assets/images/cds/cdsIcon.svg" alt="ColDog Studios Logo" />
+        </label>
+
+        <ul class="nav-links">
+            <i class="uil uil-times navCloseBtn"></i>
             <li><a href="/">Home</a></li>
             <li><a href="/projects/">Projects</a></li>
-            <li><a href="/hire-me/">Hire Me</a></li>
+            <li><a href="/services/">Services</a></li>
             <li><a href="/contact/">Contact</a></li>
         </ul>
-        
-        <label id="menuIcon" onclick="toggleNav()">
-            <i class="fa-solid fa-bars"></i>
-        </label>
     </nav>
 
     <header>
@@ -103,7 +92,7 @@
             </p>
 
             <center>
-                <a href=""><button class="btn">W.I.P</button></a>
+                <a href="https://github.com/ColDog-Studios/CARLSON/"><button class="btn"><i class="fa-brands fa-github"></i> View on GitHub</button></a>
             </center>
         </section>
 
@@ -115,11 +104,14 @@
             </p>
 
             <center>
-                <a href=""><button class="btn">W.I.P</button></a>
+                <a href="https://github.com/ColDog-Studios/Sl66p-Security"><button class="btn"><i class="fa-brands fa-github"></i> View on GitHub</button></a>
             </center>
         </section>
     </main>
 
-    <div id="footerContainer"></div>
+    <footer-content></footer-content>
+
+    <!-- Scripts -->
+    <script src="/assets/js/scripts.js"></script>
 </body>
 </html>
