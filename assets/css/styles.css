@@ -96,12 +96,13 @@ a {
 
 a:hover {
     text-decoration: underline;
+    transition: all 400ms ease-in-out;
 }
 
 button {
     background-color: #002e44;
     border: none;
-    border-radius: 0.6vw;
+    border-radius: 0.8vw;
     color: #fafafa;
     padding: 16px 32px;
     margin: 4px 2px;
@@ -113,12 +114,12 @@ button {
 
 button:hover {
     background-color: #0096dc;
-    transition: 600ms;
+    transition: all 600ms ease-in-out;
 }
 
 button:active {
     background-color: #0077b6;
-    transition: 200ms;
+    transition: all 200ms ease-in-out;
 }
 
 /* ===== MARK: Scrollbar */
