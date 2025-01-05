@@ -5,26 +5,24 @@
     <!-- HTML Meta Tags -->
     <title>ColDog Studios | ColDog Locker</title>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="ColDog Studios">
     <meta name="description" content="ColDog Studios' ColDog Locker">
     <meta name="keywords" content="ColDog Locker, CDL, Folder-Locker, Folder Locker, ColDog-Locker">
-
     <!-- Facebook Meta Tags -->
-    <meta property="og:url" content="https://coldogstudios.github.io/projects/coldog-locker/">
+    <meta property="og:url" content="https://coldogstudios.com/projects/coldog-locker/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="ColDog Studios | ColDog Locker">
     <meta property="og:description" content="All of ColDog Studios' existing projects">
-    <meta property="og:image" content="https://coldogstudios.github.io/assets/images/ColDogLocker/cdlWallpaperLite.png">
-
+    <meta property="og:image" content="https://coldogstudios.com/assets/images/ColDogLocker/cdlWallpaperLite.png">
     <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta property="twitter:domain" content="coldogstudios.github.io">
-    <meta property="twitter:url" content="https://coldogstudios.github.io/projects/coldog-locker/">
+    <meta property="twitter:domain" content="coldogstudios.com">
+    <meta property="twitter:url" content="https://coldogstudios.com/projects/coldog-locker/">
     <meta name="twitter:title" content="ColDog Studios | ColDog Locker">
     <meta name="twitter:description" content="ColDog Studios' ColDog Locker">
-    <meta name="twitter:image" content="https://coldogstudios.github.io/assets/images/ColDogLocker/cdlWallpaperLite.png">
-
+    <meta name="twitter:image" content="https://coldogstudios.com/assets/images/ColDogLocker/cdlWallpaperLite.png">
     <!-- Icons & Styling-->
     <link rel="icon" href="/assets/images/ColDogLocker/cdlIcon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/assets/images/ColDogLocker/cdlLogoLite.png">
@@ -35,18 +33,19 @@
 </head>
 
 <body>
-    <nav>
-        <label class="logo"><img src="/assets/images/ColDogLocker/cdlIcon.svg"></label>
-        <ul id="menuLinks">
+    <nav class="nav">
+        <i class="uil uil-bars navOpenBtn"></i>
+        <label class="logo">
+            <img src="/assets/images/cds/cdsIcon.svg" alt="ColDog Studios Logo" />
+        </label>
+
+        <ul class="nav-links">
+            <i class="uil uil-times navCloseBtn"></i>
             <li><a href="/">Home</a></li>
             <li><a href="/projects/">Projects</a></li>
-            <li><a href="/hire-me/">Hire Me</a></li>
+            <li><a href="/services/">Services</a></li>
             <li><a href="/contact/">Contact</a></li>
         </ul>
-        
-        <label id="menuIcon">
-            <i class="fa-solid fa-bars"></i>
-        </label>
     </nav>
 
     <header>
@@ -56,44 +55,31 @@
     <main>
         <section id="About" class="h2">
             <h2>About ColDog Locker</h2>
-                <p>
-                    ColDog Locker started as a security project to prerequisite the TestOut - Security Pro Certification. 
-                    It developed into something bigger and helped launch ColDog Studios publicly. 
-                    ColDog Locker did branch off into multiple different versions - Windows, Console, Linux, and Terminal.
-                    However, we decided to focus on prefecting a single version to be released, and removed the special version name in the process. 
-                    ColDog Locker is built using the authentic Windows GUI that you are familiar with. 
-                </p>
-                <br>
+            <p>ColDog Locker is a simple file locker that allows you to encrypt and decrypt the contents of a 'managed' directory with a password. It was created by Collin 'ColDog' Laney on 11/17/21 for a security project in Cybersecurity class.</p>
         </section>
 
         <section id="Features" class="h2">
-            <h2>Basic Features</h2>
+            <h2>Features</h2>
             <ul>
-                <li>Custom folder name and password</li>
-                <li>Encrypted data</li>
-                <li>Failed attempts lockout system</li>
-                <li>View System Information</li>
+                <li>Encrypt and decrypt directories with a password</li>
+                <li>Simple and intuitive user interface</li>
+                <li>Manage multiple directories</li>
+                <li>Check for updates directly from the application</li>
+                <li>Remove directories from management easily</li>
             </ul>
         </section>
 
         <center>
-        <section id="Windows" class="h2">
-            <h2><i class="fa-brands fa-windows"></i> ColDog Locker for Windows</h2>
-                <br>
-                <a href="https://github.com/coldogstudios/ColDog-Locker-Windows"><button class="btn"><i class="fa-brands fa-windows"></i> ColDog Locker Windows</button></a>
-                <br>
-                <p><i>
-                    ColDog Locker is still in the process of being unified into one version.
-                    For now, you can use ColDog Locker Windows to secure your files.
-                    Be aware that ColDog Locker Windows will not be supported after ColDog Locker release.
+        <section id="Download" class="h2">
+                <a href="https://github.com/coldog-studios/ColDog-Locker"><button class="btn"><i class="fa-brands fa-windows"></i> Download ColDog Locker</button></a>
         </section>
         </center>
     </main>
 
-    <div id="footerContainer"></div>
+    <footer-content></footer-content>
 
     <!-- Scripts -->
-    <script src="/assets/js/script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script src="/assets/js/scripts.js"></script>
 </body>
+
 </html>
