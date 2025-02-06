@@ -221,6 +221,10 @@ footer .bottom-details .bottom_text {
     margin-right: 10px;
 }
 
+#copyrightYear {
+    opacity: 1;
+}
+
 @media (max-width: 900px) {
     footer .content .link-boxes {
         flex-wrap: wrap;

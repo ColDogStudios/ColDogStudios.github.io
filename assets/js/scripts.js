@@ -2,6 +2,41 @@
 //  MAIN WEBSITE JS //
 //////////////////////
 
+// ----- Meta Tags ----- //
+document.addEventListener("DOMContentLoaded", function() {
+    function addMetaTag(name, content) {
+        const meta = document.createElement('meta');
+        meta.name = name;
+        meta.content = content;
+        document.head.appendChild(meta);
+    }
+
+    function addMetaProperty(property, content) {
+        const meta = document.createElement('meta');
+        meta.setAttribute('property', property);
+        meta.content = content;
+        document.head.appendChild(meta);
+    }
+
+    const currentUrl = window.location.href;
+    const siteTitle = document.title;
+
+    // Add Facebook Meta Tags
+    addMetaProperty('og:url', currentUrl);
+    addMetaProperty('og:type', 'website');
+    addMetaProperty('og:title', siteTitle);
+    addMetaProperty('og:description', '');
+    addMetaProperty('og:image', 'https://coldogstudios.com/assets/images/cds/cdsWallpaperLite.png');
+
+    // Add Twitter Meta Tags
+    addMetaTag('twitter:card', 'summary_large_image');
+    addMetaProperty('twitter:domain', 'coldogstudios.com');
+    addMetaProperty('twitter:url', currentUrl);
+    addMetaTag('twitter:title', siteTitle);
+    addMetaTag('twitter:description', '');
+    addMetaTag('twitter:image', 'https://coldogstudios.com/assets/images/cds/cdsWallpaperLite.png');
+});
+
 // ----- Navigation Menu ----- //
 const nav = document.querySelector(".nav"),
     navOpenBtn = document.querySelector(".navOpenBtn"),
@@ -26,6 +61,11 @@ document.addEventListener("DOMContentLoaded", function() {
             constructor() {
                 super();
                 this.innerHTML = data;
+                const yearSpan = this.querySelector("#copyrightYear");
+                const currentYear = new Date().getFullYear();
+                if (yearSpan) {
+                    yearSpan.textContent = `${currentYear}`;
+                }
             }
         });
     });
