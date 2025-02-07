@@ -13,11 +13,11 @@ document.addEventListener("DOMContentLoaded", function () {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="google-site-verification" content="Xnkypqod1SfUGQoBmOg1Fow2g3TySggs4CW5xRYE_jk" />
         <!-- Icons & Styling-->
-        <link rel="icon" href="/assets/images/favicon.svg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png" />
-        <link rel="stylesheet" href="/assets/css/styles.css" />
-        <link rel="stylesheet" href="/assets/css/nav.css" />
-        <link rel="stylesheet" href="/assets/css/footer.css" />
+        <link rel="icon" href="https://www.coldogstudios.com/assets/images/favicon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="https://www.coldogstudios.com/assets/images/apple-touch-icon.png" />
+        <link rel="stylesheet" href="https://www.coldogstudios.com/assets/css/styles.css" />
+        <link rel="stylesheet" href="https://www.coldogstudios.com/assets/css/nav.css" />
+        <link rel="stylesheet" href="https://www.coldogstudios.com/assets/css/footer.css" />
         <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
         <!-- Remaining Meta Tags -->
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	}
 
 	// Fetch and apply metadata from metadata.json
-	fetch("/metadata.json")
+	fetch("https://www.coldogstudios.com/metadata.json")
 		.then((response) => {
 			if (!response.ok) {
 				throw new Error("Network response was not ok " + response.statusText);
@@ -72,14 +72,14 @@ document.addEventListener("DOMContentLoaded", function () {
 				addMetaProperty("og:type", "website");
 				addMetaProperty("og:title", siteTitle);
 				addMetaProperty("og:description", pageMeta.description);
-				addMetaProperty("og:image", "https://coldogstudios.com/assets/images/cds/cdsWallpaperLite.png");
+				addMetaProperty("og:image", "https://www.coldogstudios.com/assets/images/cds/cdsWallpaperLite.png");
 
-				addMetaTag("twitter:card", "summary_large_image");
-				addMetaProperty("twitter:domain", "coldogstudios.com");
 				addMetaProperty("twitter:url", currentUrl);
+				addMetaProperty("twitter:domain", "coldogstudios.com");
+				addMetaTag("twitter:card", "summary_large_image");
 				addMetaTag("twitter:title", siteTitle);
 				addMetaTag("twitter:description", pageMeta.description);
-				addMetaTag("twitter:image", "https://coldogstudios.com/assets/images/cds/cdsWallpaperLite.png");
+				addMetaTag("twitter:image", "https://www.coldogstudios.com/assets/images/cds/cdsWallpaperLite.png");
 			} else {
 				console.error("No metadata found for the current path:", currentPath);
 			}
